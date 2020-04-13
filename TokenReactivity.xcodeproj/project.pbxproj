@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E9414D9ABBCDBC00CC7746B /* Pods_TokenReactivityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF1997A18B0A215B3405DD7E /* Pods_TokenReactivityTests.framework */; };
+		F867D74A242462B60045447E /* TokenImpBlockFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = F867D749242462B60045447E /* TokenImpBlockFactory.m */; };
+		F888F8C6242352E1002F072F /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D3EE24189CF800F36F4E /* People.m */; };
+		F89DADF7241CD108008A7B36 /* TokenReactiveEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = F89DADF6241CD108008A7B36 /* TokenReactiveEffect.m */; };
+		F89DADFD241E201A008A7B36 /* TokenReactivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F89DADFC241E201A008A7B36 /* TokenReactivity.m */; };
+		F89DAE00241E2EDD008A7B36 /* NSObject+TokenReactivity.m in Sources */ = {isa = PBXBuildFile; fileRef = F89DADFE241E2EDD008A7B36 /* NSObject+TokenReactivity.m */; };
+		F8B6D3172417C1AE00F36F4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D3162417C1AE00F36F4E /* AppDelegate.m */; };
+		F8B6D31A2417C1AE00F36F4E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D3192417C1AE00F36F4E /* SceneDelegate.m */; };
+		F8B6D31D2417C1AE00F36F4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D31C2417C1AE00F36F4E /* ViewController.m */; };
+		F8B6D3202417C1AE00F36F4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B6D31E2417C1AE00F36F4E /* Main.storyboard */; };
+		F8B6D3222417C1AE00F36F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B6D3212417C1AE00F36F4E /* Assets.xcassets */; };
+		F8B6D3252417C1AE00F36F4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B6D3232417C1AE00F36F4E /* LaunchScreen.storyboard */; };
+		F8B6D3282417C1AE00F36F4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D3272417C1AE00F36F4E /* main.m */; };
+		F8B6D3322417C1AE00F36F4E /* TokenReactivityBaseTypeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D3312417C1AE00F36F4E /* TokenReactivityBaseTypeTests.m */; };
+		F8B6D3472417C28500F36F4E /* TokenSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D3462417C28500F36F4E /* TokenSwizzle.m */; };
+		F8B6D3EF24189CF800F36F4E /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6D3EE24189CF800F36F4E /* People.m */; };
+		F8B711082442F6BD0099F4EF /* TokenReactivityFunctionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B711072442F6BD0099F4EF /* TokenReactivityFunctionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8B6D32E2417C1AE00F36F4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B6D30A2417C1AE00F36F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B6D3112417C1AE00F36F4E;
+			remoteInfo = TokenReactivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7680417563E645D5272B0820 /* Pods-TokenReactivityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenReactivityTests.release.xcconfig"; path = "Target Support Files/Pods-TokenReactivityTests/Pods-TokenReactivityTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF1997A18B0A215B3405DD7E /* Pods_TokenReactivityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TokenReactivityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0531C8C35F2851068EE1A26 /* Pods-TokenReactivityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TokenReactivityTests.debug.xcconfig"; path = "Target Support Files/Pods-TokenReactivityTests/Pods-TokenReactivityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F867D748242462B60045447E /* TokenImpBlockFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenImpBlockFactory.h; sourceTree = "<group>"; };
+		F867D749242462B60045447E /* TokenImpBlockFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenImpBlockFactory.m; sourceTree = "<group>"; };
+		F89DADF5241CD108008A7B36 /* TokenReactiveEffect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenReactiveEffect.h; sourceTree = "<group>"; };
+		F89DADF6241CD108008A7B36 /* TokenReactiveEffect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenReactiveEffect.m; sourceTree = "<group>"; };
+		F89DADFB241E201A008A7B36 /* TokenReactivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenReactivity.h; sourceTree = "<group>"; };
+		F89DADFC241E201A008A7B36 /* TokenReactivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenReactivity.m; sourceTree = "<group>"; };
+		F89DADFE241E2EDD008A7B36 /* NSObject+TokenReactivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TokenReactivity.m"; sourceTree = "<group>"; };
+		F89DADFF241E2EDD008A7B36 /* NSObject+TokenReactivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TokenReactivity.h"; sourceTree = "<group>"; };
+		F8B6D3122417C1AE00F36F4E /* TokenReactivity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokenReactivity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B6D3152417C1AE00F36F4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8B6D3162417C1AE00F36F4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8B6D3182417C1AE00F36F4E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F8B6D3192417C1AE00F36F4E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F8B6D31B2417C1AE00F36F4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8B6D31C2417C1AE00F36F4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8B6D31F2417C1AE00F36F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8B6D3212417C1AE00F36F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8B6D3242417C1AE00F36F4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8B6D3262417C1AE00F36F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B6D3272417C1AE00F36F4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8B6D32D2417C1AE00F36F4E /* TokenReactivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokenReactivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B6D3312417C1AE00F36F4E /* TokenReactivityBaseTypeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenReactivityBaseTypeTests.m; sourceTree = "<group>"; };
+		F8B6D3332417C1AE00F36F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B6D3452417C28500F36F4E /* TokenSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenSwizzle.h; sourceTree = "<group>"; };
+		F8B6D3462417C28500F36F4E /* TokenSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenSwizzle.m; sourceTree = "<group>"; };
+		F8B6D3ED24189CF800F36F4E /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		F8B6D3EE24189CF800F36F4E /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		F8B711052442D1740099F4EF /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libffi.a; path = TokenReactivity/TokenReactivity/libffi/libffi.a; sourceTree = "<group>"; };
+		F8B711072442F6BD0099F4EF /* TokenReactivityFunctionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TokenReactivityFunctionTests.m; sourceTree = "<group>"; };
+		F8B71109244314770099F4EF /* TokenReactivePropertyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TokenReactivePropertyProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B6D30F2417C1AE00F36F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B6D32A2417C1AE00F36F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E9414D9ABBCDBC00CC7746B /* Pods_TokenReactivityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527670390EF547DE2D68BCBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B711052442D1740099F4EF /* libffi.a */,
+				CF1997A18B0A215B3405DD7E /* Pods_TokenReactivityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58D60EDED509DFFCF51440B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0531C8C35F2851068EE1A26 /* Pods-TokenReactivityTests.debug.xcconfig */,
+				7680417563E645D5272B0820 /* Pods-TokenReactivityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F89DAE48241F22D8008A7B36 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F89DADFF241E2EDD008A7B36 /* NSObject+TokenReactivity.h */,
+				F89DADFE241E2EDD008A7B36 /* NSObject+TokenReactivity.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F8B6D3092417C1AE00F36F4E = {
+			isa = PBXGroup;
+			children = (
+				F8B6D3142417C1AE00F36F4E /* TokenReactivity */,
+				F8B6D3302417C1AE00F36F4E /* TokenReactivityTests */,
+				F8B6D3132417C1AE00F36F4E /* Products */,
+				58D60EDED509DFFCF51440B2 /* Pods */,
+				527670390EF547DE2D68BCBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B6D3132417C1AE00F36F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6D3122417C1AE00F36F4E /* TokenReactivity.app */,
+				F8B6D32D2417C1AE00F36F4E /* TokenReactivityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B6D3142417C1AE00F36F4E /* TokenReactivity */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6D3EC24189CE800F36F4E /* Models */,
+				F8B6D33C2417C1D200F36F4E /* TokenReactivity */,
+				F8B6D3152417C1AE00F36F4E /* AppDelegate.h */,
+				F8B6D3162417C1AE00F36F4E /* AppDelegate.m */,
+				F8B6D3182417C1AE00F36F4E /* SceneDelegate.h */,
+				F8B6D3192417C1AE00F36F4E /* SceneDelegate.m */,
+				F8B6D31B2417C1AE00F36F4E /* ViewController.h */,
+				F8B6D31C2417C1AE00F36F4E /* ViewController.m */,
+				F8B6D31E2417C1AE00F36F4E /* Main.storyboard */,
+				F8B6D3212417C1AE00F36F4E /* Assets.xcassets */,
+				F8B6D3232417C1AE00F36F4E /* LaunchScreen.storyboard */,
+				F8B6D3262417C1AE00F36F4E /* Info.plist */,
+				F8B6D3272417C1AE00F36F4E /* main.m */,
+			);
+			path = TokenReactivity;
+			sourceTree = "<group>";
+		};
+		F8B6D3302417C1AE00F36F4E /* TokenReactivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B711072442F6BD0099F4EF /* TokenReactivityFunctionTests.m */,
+				F8B6D3312417C1AE00F36F4E /* TokenReactivityBaseTypeTests.m */,
+				F8B6D3332417C1AE00F36F4E /* Info.plist */,
+			);
+			path = TokenReactivityTests;
+			sourceTree = "<group>";
+		};
+		F8B6D33C2417C1D200F36F4E /* TokenReactivity */ = {
+			isa = PBXGroup;
+			children = (
+				F89DAE48241F22D8008A7B36 /* Category */,
+				F8B6D33D2417C1D200F36F4E /* Reactivity */,
+				F8B6D33E2417C1D200F36F4E /* Hook */,
+			);
+			path = TokenReactivity;
+			sourceTree = "<group>";
+		};
+		F8B6D33D2417C1D200F36F4E /* Reactivity */ = {
+			isa = PBXGroup;
+			children = (
+				F867D748242462B60045447E /* TokenImpBlockFactory.h */,
+				F867D749242462B60045447E /* TokenImpBlockFactory.m */,
+				F89DADFB241E201A008A7B36 /* TokenReactivity.h */,
+				F89DADFC241E201A008A7B36 /* TokenReactivity.m */,
+				F89DADF5241CD108008A7B36 /* TokenReactiveEffect.h */,
+				F89DADF6241CD108008A7B36 /* TokenReactiveEffect.m */,
+				F8B71109244314770099F4EF /* TokenReactivePropertyProtocol.h */,
+			);
+			path = Reactivity;
+			sourceTree = "<group>";
+		};
+		F8B6D33E2417C1D200F36F4E /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6D3452417C28500F36F4E /* TokenSwizzle.h */,
+				F8B6D3462417C28500F36F4E /* TokenSwizzle.m */,
+			);
+			path = Hook;
+			sourceTree = "<group>";
+		};
+		F8B6D3EC24189CE800F36F4E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6D3ED24189CF800F36F4E /* People.h */,
+				F8B6D3EE24189CF800F36F4E /* People.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8B6D3112417C1AE00F36F4E /* TokenReactivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B6D3362417C1AE00F36F4E /* Build configuration list for PBXNativeTarget "TokenReactivity" */;
+			buildPhases = (
+				F8B6D30E2417C1AE00F36F4E /* Sources */,
+				F8B6D30F2417C1AE00F36F4E /* Frameworks */,
+				F8B6D3102417C1AE00F36F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokenReactivity;
+			productName = TokenReactivity;
+			productReference = F8B6D3122417C1AE00F36F4E /* TokenReactivity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8B6D32C2417C1AE00F36F4E /* TokenReactivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B6D3392417C1AE00F36F4E /* Build configuration list for PBXNativeTarget "TokenReactivityTests" */;
+			buildPhases = (
+				B486BC4127782F3E2506C0AF /* [CP] Check Pods Manifest.lock */,
+				F8B6D3292417C1AE00F36F4E /* Sources */,
+				F8B6D32A2417C1AE00F36F4E /* Frameworks */,
+				F8B6D32B2417C1AE00F36F4E /* Resources */,
+				A9B0356EF2952B50542E191E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B6D32F2417C1AE00F36F4E /* PBXTargetDependency */,
+			);
+			name = TokenReactivityTests;
+			productName = TokenReactivityTests;
+			productReference = F8B6D32D2417C1AE00F36F4E /* TokenReactivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B6D30A2417C1AE00F36F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = krauschen;
+				TargetAttributes = {
+					F8B6D3112417C1AE00F36F4E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					F8B6D32C2417C1AE00F36F4E = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F8B6D3112417C1AE00F36F4E;
+					};
+				};
+			};
+			buildConfigurationList = F8B6D30D2417C1AE00F36F4E /* Build configuration list for PBXProject "TokenReactivity" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8B6D3092417C1AE00F36F4E;
+			productRefGroup = F8B6D3132417C1AE00F36F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8B6D3112417C1AE00F36F4E /* TokenReactivity */,
+				F8B6D32C2417C1AE00F36F4E /* TokenReactivityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8B6D3102417C1AE00F36F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B6D3252417C1AE00F36F4E /* LaunchScreen.storyboard in Resources */,
+				F8B6D3222417C1AE00F36F4E /* Assets.xcassets in Resources */,
+				F8B6D3202417C1AE00F36F4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B6D32B2417C1AE00F36F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9B0356EF2952B50542E191E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokenReactivityTests/Pods-TokenReactivityTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TokenReactivityTests/Pods-TokenReactivityTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TokenReactivityTests/Pods-TokenReactivityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B486BC4127782F3E2506C0AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TokenReactivityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8B6D30E2417C1AE00F36F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89DADF7241CD108008A7B36 /* TokenReactiveEffect.m in Sources */,
+				F867D74A242462B60045447E /* TokenImpBlockFactory.m in Sources */,
+				F8B6D31D2417C1AE00F36F4E /* ViewController.m in Sources */,
+				F8B6D3172417C1AE00F36F4E /* AppDelegate.m in Sources */,
+				F89DADFD241E201A008A7B36 /* TokenReactivity.m in Sources */,
+				F89DAE00241E2EDD008A7B36 /* NSObject+TokenReactivity.m in Sources */,
+				F8B6D3EF24189CF800F36F4E /* People.m in Sources */,
+				F8B6D3282417C1AE00F36F4E /* main.m in Sources */,
+				F8B6D3472417C28500F36F4E /* TokenSwizzle.m in Sources */,
+				F8B6D31A2417C1AE00F36F4E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B6D3292417C1AE00F36F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B711082442F6BD0099F4EF /* TokenReactivityFunctionTests.m in Sources */,
+				F888F8C6242352E1002F072F /* People.m in Sources */,
+				F8B6D3322417C1AE00F36F4E /* TokenReactivityBaseTypeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8B6D32F2417C1AE00F36F4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B6D3112417C1AE00F36F4E /* TokenReactivity */;
+			targetProxy = F8B6D32E2417C1AE00F36F4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8B6D31E2417C1AE00F36F4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B6D31F2417C1AE00F36F4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8B6D3232417C1AE00F36F4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8B6D3242417C1AE00F36F4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8B6D3342417C1AE00F36F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8B6D3352417C1AE00F36F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B6D3372417C1AE00F36F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TokenReactivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TokenReactivity/TokenReactivity/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.token.TokenReactivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8B6D3382417C1AE00F36F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TokenReactivity/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TokenReactivity/TokenReactivity/libffi",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.token.TokenReactivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8B6D33A2417C1AE00F36F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0531C8C35F2851068EE1A26 /* Pods-TokenReactivityTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TokenReactivityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.token.TokenReactivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokenReactivity.app/TokenReactivity";
+			};
+			name = Debug;
+		};
+		F8B6D33B2417C1AE00F36F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7680417563E645D5272B0820 /* Pods-TokenReactivityTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TokenReactivityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.token.TokenReactivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokenReactivity.app/TokenReactivity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8B6D30D2417C1AE00F36F4E /* Build configuration list for PBXProject "TokenReactivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B6D3342417C1AE00F36F4E /* Debug */,
+				F8B6D3352417C1AE00F36F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B6D3362417C1AE00F36F4E /* Build configuration list for PBXNativeTarget "TokenReactivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B6D3372417C1AE00F36F4E /* Debug */,
+				F8B6D3382417C1AE00F36F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B6D3392417C1AE00F36F4E /* Build configuration list for PBXNativeTarget "TokenReactivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B6D33A2417C1AE00F36F4E /* Debug */,
+				F8B6D33B2417C1AE00F36F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B6D30A2417C1AE00F36F4E /* Project object */;
+}
